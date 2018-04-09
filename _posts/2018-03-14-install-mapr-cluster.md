@@ -6,8 +6,10 @@ categories: [ MapR ]
 comments: true
 published: true
 share: true
+toc : true
+toc_label : "MapR Cluster Installtion"
+toc_icon : "flag-checkered"
 ---
-{% include toc depth=3 number_sections=true highlight=tango title="MapR Installation" icon="file-text" %}
 
 # Pre-Install Checks
 * Verify prerequisites on every node!

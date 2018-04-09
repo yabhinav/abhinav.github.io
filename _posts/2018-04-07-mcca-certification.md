@@ -1,16 +1,25 @@
 ---
-title: "MapR Certified Cluster Administrator Exam Details"
+title: "MapR Certified Cluster Administrator Exam"
 date: "2018-04-07 18:01:29 +0100"
-excerpt: "The [MapR Certified Cluster Administrator](https://mapr.com/training/certification/mcca/) credential is designed for Engineers and Administrators who are responsible for preparing the cluster for install, installing, setting up, and maintaining a MapR Cluster. The certification tests your ability to use MapR tools and Linux commands to set up the cluster, install, maintain, and troubleshoot common problems. How should you prepare for the MapR Administrator exam?"
+excerpt: "The MCCA - MapR Certified Cluster Administrator exam covers administering a MapR 5.x Converged Data Platform."
 tags: [MapR, Certification]
 categories: [ MapR ]
 comments: true
 published: true
 share: true
+layout: splash
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /images/MapR_logo.jpg
+  cta_label: "More Info"
+  cta_url : https://mapr.com/training/certification/mcca/
+  caption : "Credit : [**MapR**](https://mapr.com/training/certification/)"
 ---
 
 # Overview
-The MCCA - MapR Certified Cluster Administrator 5.1 exam covers administering a MapR 5.x Converged Data Platform. The exam currently includes only multiple choice questions (as of April 2018).
+
+![MCCA5.1]({{ site.url }}{{ site.baseurl }}/images/mcca.png){: .align-left} This credential is designed for Engineers and Administrators who are responsible for preparing the cluster for install, installing, setting up, and maintaining a MapR Cluster. The certification tests your ability to use MapR tools and Linux commands to set up the cluster, install, maintain, and troubleshoot common problems. The exam currently includes only multiple choice questions (as of April 2018).
 
 ## Exam Format and Fees
 
@@ -44,6 +53,8 @@ The MCCA - MapR Certified Cluster Administrator 5.1 exam covers administering a 
 
 
 # Preparation
+>
+How should you prepare for the MapR Administrator exam?
 
 ## Linux Skills
 In order to be successful, you will first need strong Linux and bash skills, as well as database administration skills. At least six months of experience as an administrator and experience with Linux is recommended. These online courses can get you started:

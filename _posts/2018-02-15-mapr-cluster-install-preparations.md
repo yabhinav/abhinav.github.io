@@ -6,6 +6,9 @@ categories: [ MapR ]
 comments: true
 published: true
 share: true
+toc : true
+toc_label : "Prep MapR Cluster Installtion"
+toc_icon : "flag-checkered"
 ---
 
 # Prepare for Installation

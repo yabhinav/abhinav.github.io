@@ -2,14 +2,15 @@
 
 title: Settingup Multiple Git Source Accounts
 excerpt: "Configure Git to access multiple accounts like Bitbucket and Github"
-tags: [Github, git, bitbucket, SSH_RSA]
+tags: [Github, Git, Bitbucket, SSH_RSA]
 categories: [ DevOps ]
 comments: true
 published: true
 share: true
+toc : true
+toc_label : "Setting Multiple Git SSH Keys"
+toc_icon : "cloud"
 ---
-
-{% include toc title="Setting Multiple Git SSH Keys" icon="file-text" %}
 
 # Introduction
 

@@ -2,13 +2,14 @@
 title: SSH Handshake
 excerpt: "Overview of the SSH2 protocol, with a focus on how it uses encryption and cryptography to accomplish many of its goals: tcp session handshake, authentication, integrity, and confidentiality"
 tags: [OpenSSH, Authentication, TCP]
-categories: [ security ]
+categories: [ Security ]
 comments: true
 published: true
 share: true
+toc : true
+toc_label : "SSH Handshake"
+toc_icon : "handshake"
 ---
-
-{% include toc title="SSH Handshake" icon="file-text" %}
 
 # Overview
 

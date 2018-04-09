@@ -2,14 +2,15 @@
 
 title: Monitor Ec2 Instances with Slack and Ambari Lambda
 excerpt: "Monitor Number Running EC2 Instance or EC2 Instance evnets using a Lambda Function and send notifications to slack via incoming webhook integrated to the channel"
-tags: [AWS, Slack, lambda, EC2]
-categories: [ cloud ]
+tags: [AWS, Slack, Lambda, EC2]
+categories: [ Cloud ]
 comments: true
 published: true
 share: true
+toc : true
+toc_label : "Slack it!!"
+toc_icon : "hashtag"
 ---
-
-{% include toc title="Slack it!!" icon="file-text" %}
 
 # Overview
 
