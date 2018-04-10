@@ -139,6 +139,3 @@ Double click on a node to expand its properties and view its performance. Test a
 MapR also creates files and directories during installation. Some of them are listed here :
 
 ![MapR local files]({{ site.url }}{{ site.baseurl }}/images/mapr_install/adm200_333_localfilesanddirectories.png)
-
-
-![]({{ site.url }}{{ site.baseurl }}/images/mapr_install/.png)
