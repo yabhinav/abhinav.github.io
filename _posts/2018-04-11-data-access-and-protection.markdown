@@ -3,7 +3,7 @@ layout: single
 title: "Data Access and Protection"
 date: "2018-04-11 10:55:14 +0100"
 excerpt: "Access Cluster Data, Snapshots and Mirrors in MapR Converged Data Platform "
-tags: [MapR, Hadoop, Adminstration]
+tags: [MapR, Hadoop, Administration]
 categories: [ MapR ]
 comments: true
 published: true

@@ -1,7 +1,7 @@
 ---
 title: Preparation for Installing a MapR Cluster.
 excerpt: "Identify Node Types, Prepare and Verify Cluster Hardware, Test Nodes and Plan the Service Layout"
-tags: [MapR, Hadoop, Adminstration, Preparation]
+tags: [MapR, Hadoop, Administration, Preparation]
 categories: [ MapR ]
 comments: true
 published: true

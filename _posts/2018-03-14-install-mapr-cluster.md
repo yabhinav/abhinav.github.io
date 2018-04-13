@@ -1,7 +1,7 @@
 ---
 title: Install MapR Converged Data Platform.
 excerpt: "Install the MapR Converged Data Platform and Add a MapR License"
-tags: [MapR, Hadoop, Adminstration, Installation]
+tags: [MapR, Hadoop, Administration, Installation]
 categories: [ MapR ]
 comments: true
 published: true

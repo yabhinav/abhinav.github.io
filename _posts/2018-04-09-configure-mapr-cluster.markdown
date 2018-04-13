@@ -3,7 +3,7 @@ layout: single
 title: "Configure MapR Cluster"
 date: "2018-04-09 13:10:19 +0100"
 excerpt: "Users, Groups and System Settings; Configure Topology and Volumes; Job Logs and Scheduling"
-tags: [MapR, Hadoop, Adminstration]
+tags: [MapR, Hadoop, Administration]
 categories: [ MapR ]
 comments: true
 published: true

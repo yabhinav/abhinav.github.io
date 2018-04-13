@@ -3,7 +3,7 @@ layout: single
 title: "Verify and Test MapR Cluster"
 date: "2018-04-08 12:19:27 +0100"
 excerpt: "Verify Cluster Status, Run Post-Install Benchmark Tests and Explore the Cluster Structure"
-tags: [MapR, Hadoop, Adminstration]
+tags: [MapR, Hadoop, Administration]
 categories: [ MapR ]
 comments: true
 published: true
