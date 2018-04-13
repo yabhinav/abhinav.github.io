@@ -10,7 +10,7 @@ published: true
 share: true
 toc : true
 toc_label : "Maintenance"
-toc_icon : "band-aid"  # corresponding Font Awesome icon name (without fa prefix)
+toc_icon : "wrench"  # corresponding Font Awesome icon name (without fa prefix)
 ---
 
 # Intro
