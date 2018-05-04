@@ -7,7 +7,7 @@ comments: true
 published: true
 share: true
 toc : true
-toc_label : "MapR Cluster Installtion"
+toc_label : "MapR Cluster Installation"
 toc_icon : "flag-checkered"
 ---
 
@@ -31,7 +31,7 @@ bash ./mapr-setup.sh
   * Checks internet connectivity; if not available it uses archive files.
   * Establishes MapR administrator account (`mapr`)
   * Creates Repository with required package files; if you provided packages in archive files it will create a local repository.
-4. Start the MapR Installer Web Interface on Installare node in webbrowser.
+4. Start the MapR Installer Web Interface on Installer node in webbrowser.
 ```
 https://<external IP address>:9443
 ```
@@ -110,7 +110,7 @@ Use Passwordless SSH between nodes to connect instead of `mapr` password.
 
 ## Verify Nodes
 ### Verification Process
-Installer will connect to all nodes and check if they statisfy minimum requirements. Notice the Following Indication on each node icon :
+Installer will connect to all nodes and check if they satisfy minimum requirements. Notice the Following Indication on each node icon :
 * White - Verification InProgress
 * Green - Ready for installation
 * Yellow - Warnings but can be installed

@@ -37,7 +37,7 @@ This post covers
 * Set disk use quotas
 * There are two users who are granted permissions by default when MapR was installed
   * `root` - MapR software is installed as the root user
-  *  `MapR Adminstrative User` - has full privileges to administer cluster and runs cluster services. specfied during install (default is mapr)
+  *  `MapR Administrative User` - has full privileges to administer cluster and runs cluster services. specified during install (default is mapr)
 
 ## Cluster Permissions
 
@@ -152,12 +152,12 @@ A clusters topology :
 * Based on business requirements and data access strategies
 
 ## Default Topology
-Topology paths are defined much like FS directories but they are not mountpoints or directories, but they are simply labels for topologies that illustrate the relationship between group of nodes.
+Topology paths are defined much like FS directories but they are not mount-points or directories, but they are simply labels for topologies that illustrate the relationship between group of nodes.
 For Example `/data/default-rack` is sub topology of `/data/`; so anything inside `/data/default-rack` topology is part of `/data/` topology.
 * Default topology for Node: ​/data/default-rack
 * Default topology for Volume: /data
 
-As volumes are created they are assigned to `/data`; this means data is replicated to anynode unver `/data/` topology.
+As volumes are created they are assigned to `/data`; this means data is replicated to any node under `/data/` topology.
 
 ![Default Topology]({{ site.url }}{{ site.baseurl }}/images/mapr_config/adm201_l05_s5-1-2_default-topology2.png)
 
@@ -268,7 +268,7 @@ Logical unit of data organization and management
 * Comprised of containers
   * Name containers : Each volume has one named contained. It has metadata and first 64kb of data.
   * Data containers
-* Volumes may span the cluster or set of nodes depedning on the topology.
+* Volumes may span the cluster or set of nodes depending on the topology.
 
 ### Volume Properties
 1. Name and Mount Path
@@ -349,9 +349,6 @@ This means combined size of volumes is limited to AE's Quota **40TB**
 
 ![]({{ site.url }}{{ site.baseurl }}/images/mapr_config/adn201_l06_6110_gif_2.gif){: .align-right}
 * Once set, cannot change for the volume
-* High throughput (chain)
-  * Default
-  * Appropriate for most volumes
 * Low latency (star)
   * Best with small files
   * Can impact network with large files
@@ -412,7 +409,7 @@ Select Accountable Entity by selecting an User/Group from drop-down list.
 ![]({{ site.url }}{{ site.baseurl }}/images/mapr_config/adm201_625_volumesettingsscheduling.png)
 
 5. Data Access
-Create Access Control Expressions to define access to volume data
+* Create Access Control Expressions to define access to volume data
 ![]({{ site.url }}{{ site.baseurl }}/images/mapr_config/adm201_l06_625_maprcli_dataaccess.png)
 
 ### Create Volumes with CLI

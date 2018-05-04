@@ -9,7 +9,7 @@ comments: true
 published: true
 share: true
 toc : true
-toc_label : "Verify Installtion"
+toc_label : "Verify Installation"
 toc_icon : "flag-checkered"
 ---
 # Intro
@@ -28,7 +28,7 @@ Open the MapR control system on `https://<node ip address>:8443` on any of the c
 ![MCS Connect]({{ site.url }}{{ site.baseurl }}/images/mapr_install/adm200_311_maprcontrolsystemconnect.png)
 
 ### Dashboard
-The dashboard view opens by default and there is a navigation pane on the left gives access to all MapR features. A Cluster Heatmap in centre gives color coded overview of the health of each node
+The dashboard view opens by default and there is a navigation pane on the left gives access to all MapR features. A Cluster Heatmap in centre gives colour coded overview of the health of each node
 
 ![MCS Dashboard]({{ site.url }}{{ site.baseurl }}/images/mapr_install/adm200_311_maprcontrolsystemdashboard.png)
 

@@ -7,7 +7,7 @@ comments: true
 published: true
 share: true
 toc : true
-toc_label : "Prep MapR Cluster Installtion"
+toc_label : "Prep MapR Cluster Installation"
 toc_icon : "flag-checkered"
 ---
 
@@ -119,7 +119,7 @@ Smaller clusters may combine control and data nodes
   * Use LVM; its a good idea to use LVM on boot drive, but it should not be used on cluster storage
     *  Easily grow file systems later
   * Mirror the boot disk
-​    *  Facilitate recovery in case of failure
+    *  Facilitate recovery in case of failure
 
 #### Network Ports Used by MapR
   * Port `9443`:  UI installer
@@ -194,7 +194,7 @@ To see the services configured for a node, view `/opt/mapr/roles`
 #### Services: ZooKeeper
   * Coordinates other services
   * Provides:
-    * Distributed and synchronized configuration
+    * Distributed and synchronised configuration
     * Storage and mediation of configuration information
     * Resolution of race conditions
   * Runs on an odd number of nodes

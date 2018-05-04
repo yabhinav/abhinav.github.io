@@ -108,7 +108,7 @@ Along with regular access , Direct posix access is supported only in linux.Compa
   * Up to 1 GB/sec
   * 10 free
 * Platinum
-  * Up to 5 GB/sec (hyperthreading disabled)
+  * Up to 5 GB/sec (hyper-threading disabled)
   * Paid
 
 ## Configure Virtual IP Addresses
@@ -208,9 +208,9 @@ Depends on permissions granted:
 ![]({{ site.url }}{{ site.baseurl }}/images/mapr_config/adm202_911_characteristics_snapshot.png){: .align-right}
 
 * Read-only point-in-time image of a volume
-* Doesn't copy dat but simply create pointers to the data
+* Doesn't copy data but simply create pointers to the data
   * Tiny space penalty
-  * Very quick (seconds)
+  * Very quick(seconds)
 * Can scheduled or taked on demand
   * Persists until user-set expiration
 
@@ -221,7 +221,7 @@ Depends on permissions granted:
   * `.snapshot` directory
   * Exists even if empty
 * Not visible to `ls –ltarh` command
-* Accessed via NFS or Hadoop shell possibe if we include `.snapshot` in the query path.
+* Accessed via NFS or Hadoop shell possible if we include `.snapshot` in the query path.
 
 ### Snapshot Architecture
 
