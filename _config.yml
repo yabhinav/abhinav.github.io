@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "Why Abhinav?"
 title_separator          : "--"
 name                     : "Abhinav Yalamanchili"
-description              : "A blog discuss and post all the Why's, How's, Who's and What's Abhinav has encountered in his brief budding career"
+description              : "A blog discuss and post all the Why's, How's, Who's and What's Abhinav has encountered in his bountiful career"
 url                      : "https://yabhinav.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -75,7 +75,7 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : &twitter "whyabhinav"
+  username               : 
 facebook:
   username               :
   app_id                 :
@@ -99,7 +99,7 @@ analytics:
 author:
   name             : "Abhinav Yalamanchili"
   avatar           : "/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Hadoop Developer with a bit of knowledge in Python,Ansible and AWS"
+  bio              : "BigData and Cloud consultant with experience in HDP,MapR, Python,Ansible and AWS"
   location         : "London"
   email            :
   uri              : "https://yabhinav.github.io"
@@ -122,7 +122,7 @@ author:
   stackoverflow    : "4312560/abhinav-yalamanchili" # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
-  twitter          : *twitter
+  twitter          : 
   vine             :
   weibo            :
   xing             :
